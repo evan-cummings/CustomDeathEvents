@@ -1,0 +1,11 @@
+name: CustomDeathEvents
+version: '${project.version}'
+main: com.fletchplugins.customdeathevents.CustomDeathEvents
+api-version: 1.18
+commands:
+  setdeatheffect:
+    description: sets the death effect of a given world
+    usage: /setdeatheffect
+  resetdeatheffects:
+    description: clears all death effects of a given world
+    usage: /resetdeatheffects
